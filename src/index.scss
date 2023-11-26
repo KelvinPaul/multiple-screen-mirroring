@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.canvas {
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: transform 0.3s;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #2196f3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s 0.01s;
+}
